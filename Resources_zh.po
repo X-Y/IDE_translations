@@ -18,7 +18,7 @@ msgstr ""
 
 #: Base.java:181
 msgid "Non-fatal error while setting the Look & Feel."
-msgstr "設定外觀&感覺時發生非嚴重性的錯誤"
+msgstr "設定外觀&感覺時發生非致命性的錯誤"
 
 #: Base.java:182
 msgid "The error message follows, however Arduino should run fine."
@@ -52,7 +52,7 @@ msgstr ""
 
 #: Base.java:254
 msgid "Sketchbook folder disappeared"
-msgstr "草稿碼簿目錄不見了"
+msgstr "藍圖本目錄不見了"
 
 #: Base.java:255
 msgid ""
@@ -62,11 +62,11 @@ msgid ""
 "necessary. Arduino will then stop talking about\n"
 "himself in the third person."
 msgstr ""
-"草稿碼簿目錄不存在。\n"
-"Arduino將改成預設的草稿碼簿的路徑，\n"
+"藍圖本目錄不存在。\n"
+"Arduino將改用預設的藍圖本的路徑，\n"
 "若有需要會建立新的。\n"
 "Arduino接下來將停止以第三人稱\n"
-"討論它自己。"
+"稱呼自己。"
 
 #: Base.java:529
 msgid "Time for a Break"
@@ -77,7 +77,7 @@ msgid ""
 "You've reached the limit for auto naming of new sketches\n"
 "for the day. How about going for a walk instead?"
 msgstr ""
-"你今天已經達到自動命名草稿碼的數目上限了，\n"
+"你今天已經達到自動命名藍圖的數目上限了，\n"
 "何不外出散散步呢？"
 
 #: Base.java:534
@@ -90,7 +90,7 @@ msgstr "不，我說真的，該是時候呼吸呼吸新鮮空氣了。"
 
 #: Base.java:630
 msgid "Open an Arduino sketch..."
-msgstr "開啟Arduino草稿碼..."
+msgstr "開啟Arduino藍圖..."
 
 #: Base.java:769
 msgid ""
@@ -100,7 +100,7 @@ msgid ""
 msgstr ""
 "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
 "{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>你確定"
-"要離開嗎？</b><p>關閉最後一份開啟中的草稿碼就回離開Arduino。"
+"要離開嗎？</b><p>關閉最後一份開啟中的藍圖就回離開Arduino。"
 
 #: Base.java:779 Editor.java:586
 msgid "Quit"
@@ -116,7 +116,7 @@ msgstr "貢獻"
 
 #: Base.java:1092
 msgid "Sketch Does Not Exist"
-msgstr "草稿碼不存在"
+msgstr "藍圖不存在"
 
 #: Base.java:1093
 msgid ""
@@ -124,9 +124,9 @@ msgid ""
 "You may need to restart Arduino to update\n"
 "the sketchbook menu."
 msgstr ""
-"被選的草稿碼已經不存在了。\n"
+"被選的藍圖已經不存在了。\n"
 "你可能需要重新啟動Arduino，\n"
-"以更新草稿碼簿的目錄。"
+"以更新藍圖本的目錄。"
 
 #: Base.java:1122
 #, java-format
@@ -137,14 +137,14 @@ msgid ""
 "To get rid of this message, remove the sketch from\n"
 "{1}"
 msgstr ""
-"這份草稿碼\"{0}\"無法使用。\n"
-"草稿碼的名稱只能含有一般的字母與數字\n"
+"這份藍圖\"{0}\"無法使用。\n"
+"藍圖的名稱只能含有一般的字母與數字\n"
 "（只能用ASCII，不能有空白，不能以數字開頭。）\n"
-"若不想看到此訊息，請從{1}移除草稿碼。\n"
+"若不想看到此訊息，請從{1}移除藍圖。\n"
 
 #: Base.java:1129
 msgid "Ignoring sketch with bad name"
-msgstr "忽略名稱錯誤的草稿碼"
+msgstr "忽略名稱錯誤的藍圖"
 
 #: Base.java:1199
 #, java-format
@@ -183,7 +183,7 @@ msgstr ""
 
 #: Base.java:1599
 msgid "You forgot your sketchbook"
-msgstr "你忘記你的草稿碼簿了"
+msgstr "你忘記你的藍圖本了"
 
 #: Base.java:1600
 msgid ""
@@ -191,11 +191,11 @@ msgid ""
 "create a folder to store your sketchbook."
 msgstr ""
 "Arduino無法執行，因為它無法\n"
-"建立儲存你的草稿碼簿的目錄。"
+"建立儲存你的藍圖本的目錄。"
 
 #: Base.java:1620
 msgid "Select (or create new) folder for sketches..."
-msgstr "選擇（或建立）存放草稿碼的目錄..."
+msgstr "選擇（或建立）存放藍圖的目錄..."
 
 #: Base.java:1644
 msgid "Problem Opening URL"
@@ -225,7 +225,7 @@ msgstr ""
 
 #: Base.java:1782
 msgid "Guide_MacOSX.html"
-msgstr ""
+msgstr "Guide_MacOSX.html"
 
 #: Base.java:1784
 msgid "Guide_Windows.html"
@@ -312,7 +312,7 @@ msgstr "編譯出錯"
 
 #: debug/Compiler.java:465
 msgid "Please import the SPI library from the Sketch > Import Library menu."
-msgstr "請從「草稿碼 > 匯入程式庫」選單匯入SPI程式庫"
+msgstr "請從「藍圖 > 匯入程式庫」選單匯入SPI程式庫"
 
 #: debug/Compiler.java:466
 msgid ""
@@ -453,21 +453,21 @@ msgstr ""
 msgid ""
 "Wrong microcontroller found.  Did you select the right board from the Tools "
 "> Board menu?"
-msgstr "找到不對的微處理器，你在「工具 > 板子」選單裡"
+msgstr "找到錯誤的微處理器，你在「工具 > 板子」選單裡"
 "選對板子了嗎？"
 
 #: Editor.java:366
 msgid "No files were added to the sketch."
-msgstr "並沒有檔案加入草稿碼"
+msgstr "並沒有檔案加入藍圖"
 
 #: Editor.java:369 Sketch.java:996
 msgid "One file added to the sketch."
-msgstr "一個檔案加入草稿碼"
+msgstr "一個檔案加入藍圖"
 
 #: Editor.java:373
 #, java-format
 msgid "{0} files added to the sketch."
-msgstr "{0}個檔案加入草稿碼"
+msgstr "{0}個檔案加入藍圖"
 
 #: Editor.java:484
 msgid "File"
@@ -479,7 +479,7 @@ msgstr "新增"
 
 #: Editor.java:503
 msgid "Sketchbook"
-msgstr "草稿碼簿"
+msgstr "藍圖本"
 
 #: Editor.java:509
 msgid "Examples"
@@ -516,11 +516,11 @@ msgstr "列印"
 
 #: Editor.java:576 Preferences.java:217
 msgid "Preferences"
-msgstr "偏好設定"
+msgstr "設定"
 
 #: Editor.java:600
 msgid "Sketch"
-msgstr "草稿碼"
+msgstr "藍圖"
 
 #: Editor.java:602
 msgid "Verify / Compile"
@@ -532,7 +532,7 @@ msgstr "匯入程式庫..."
 
 #: Editor.java:634
 msgid "Show Sketch Folder"
-msgstr "顯示草稿碼的所在目錄"
+msgstr "顯示藍圖的所在目錄"
 
 #: Editor.java:643
 msgid "Add File..."
@@ -636,11 +636,11 @@ msgstr "複製"
 
 #: Editor.java:1151 Editor.java:2668
 msgid "Copy for Forum"
-msgstr "為了論壇進行複製"
+msgstr "複製為論壇格式"
 
 #: Editor.java:1163 Editor.java:2676
 msgid "Copy as HTML"
-msgstr "當做HTML進行複製"
+msgstr "複製為HTML"
 
 #: Editor.java:1175 Editor.java:2684
 msgid "Paste"
@@ -672,7 +672,7 @@ msgstr "找下一個"
 
 #: Editor.java:1245
 msgid "Find Previous"
-msgstr "找上衣個"
+msgstr "找上一個"
 
 #: Editor.java:1255
 msgid "Use Selection For Find"
@@ -694,7 +694,7 @@ msgstr "{0}.html"
 
 #: Editor.java:1843 Sketch.java:1647
 msgid "Compiling sketch..."
-msgstr "編譯草稿碼..."
+msgstr "編譯藍圖..."
 
 #: Editor.java:1864 Editor.java:1881
 msgid "Done compiling."
@@ -714,7 +714,7 @@ msgid ""
 msgstr ""
 "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
 "{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>你想在"
-"關閉草稿碼前儲存變更的地方嗎？<BR></b><p>若不儲存，"
+"關閉藍圖前儲存變更的地方嗎？<BR></b><p>若不儲存，"
 "將會遺失變更的地方。"
 
 #: Editor.java:2017 Editor.java:2098 Editor.java:2418 Preferences.java:78
@@ -735,7 +735,7 @@ msgid ""
 "Processing can only open its own sketches\n"
 "and other files ending in .ino or .pde"
 msgstr ""
-"Processing只能開啟它自己的草稿碼，\n"
+"Processing只能開啟它自己的藍圖，\n"
 "以及其他.ino或.pde的檔案。"
 
 #: Editor.java:2098 Editor.java:2418 Preferences.java:79 Sketch.java:589
@@ -751,7 +751,7 @@ msgid ""
 "Create this folder, move the file, and continue?"
 msgstr ""
 "檔案\"{0}\"必須放在名為\"{1}\"的\n"
-"草稿碼目錄中。\n"
+"藍圖目錄中。\n"
 "建立這個目錄、移動檔案、然後繼續？"
 
 #: Editor.java:2109
@@ -761,11 +761,11 @@ msgstr "移動中"
 #: Editor.java:2122
 #, java-format
 msgid "A folder named \"{0}\" already exists. Can't open sketch."
-msgstr "名為\"{0}\"的目錄已經存在，無法開啟草稿碼。"
+msgstr "名為\"{0}\"的目錄已經存在，無法開啟藍圖。"
 
 #: Editor.java:2132
 msgid "Could not create the sketch folder."
-msgstr "無法建立草稿碼目錄"
+msgstr "無法建立藍圖目錄"
 
 #: Editor.java:2141
 msgid "Could not copy to a proper location."
@@ -773,7 +773,7 @@ msgstr "無法複製到適當的位置"
 
 #: Editor.java:2159
 msgid "Could not create the sketch."
-msgstr "無法建立草稿碼"
+msgstr "無法建立藍圖"
 
 #: Editor.java:2166
 #, java-format
@@ -996,11 +996,11 @@ msgstr ""
 
 #: Preferences.java:237
 msgid "Sketchbook location:"
-msgstr "草稿碼簿的位置："
+msgstr "藍圖本的位置："
 
 #: Preferences.java:252
 msgid "Select new sketchbook location"
-msgstr "選擇新的草稿碼簿位置"
+msgstr "選擇新的藍圖本位置"
 
 #: Preferences.java:276
 msgid "Editor font size: "
@@ -1032,7 +1032,7 @@ msgstr "在啟動時檢查更新"
 
 #: Preferences.java:334
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
-msgstr "儲存時更新草稿碼檔案的附檔名（.pde -> .ino）"
+msgstr "儲存時更新藍圖檔案的附檔名（.pde -> .ino）"
 
 #: Preferences.java:345
 msgid "Automatically associate .ino files with Arduino"
@@ -1118,7 +1118,7 @@ msgstr " 傳輸鮑率"
 
 #: Sketch.java:278 Sketch.java:307 Sketch.java:581 Sketch.java:970
 msgid "Sketch is Read-Only"
-msgstr "草稿碼為唯讀狀態"
+msgstr "藍圖為唯讀狀態"
 
 #: Sketch.java:279 Sketch.java:308 Sketch.java:582 Sketch.java:971
 msgid ""
@@ -1126,7 +1126,7 @@ msgid ""
 "need to re-save the sketch in another location,\n"
 "and try again."
 msgstr ""
-"有些檔案為\"唯讀\"，你必須將草稿碼"
+"有些檔案為\"唯讀\"，你必須將藍圖"
 "重新儲存到別的位置，"
 "然後重試。"
 
@@ -1136,14 +1136,14 @@ msgstr 新檔案命名：""
 
 #: Sketch.java:298
 msgid "Sketch is Untitled"
-msgstr "草稿碼沒有名稱"
+msgstr "藍圖沒有名稱"
 
 #: Sketch.java:299
 msgid ""
 "How about saving the sketch first \n"
 "before trying to rename it?"
 msgstr ""
-"改名草稿碼之前，\n"
+"改名藍圖之前，\n"
 "要不要先儲存？"
 
 #: Sketch.java:359 Sketch.java:366 Sketch.java:377
@@ -1180,14 +1180,14 @@ msgstr "在\"{1}\"裡已經存在名為\"{0}\"的檔案"
 
 #: Sketch.java:415
 msgid "You can't have a .cpp file with the same name as the sketch."
-msgstr ".cpp檔案的檔名不能跟草稿碼名稱相同"
+msgstr ".cpp檔案的檔名不能跟藍圖名稱相同"
 
 #: Sketch.java:425
 msgid ""
 "You can't rename the sketch to \"{0}\"\n"
 "because the sketch already has a .cpp file with that name."
 msgstr ""
-"你不能將草稿碼改名為\"{0}\"\n"
+"你不能將藍圖改名為\"{0}\"\n"
 "，因為那個名字已經有個.cpp檔案了"
 
 #: Sketch.java:459
@@ -1197,11 +1197,11 @@ msgstr "無法重新命名"
 #: Sketch.java:461
 #, java-format
 msgid "Sorry, a sketch (or folder) named \"{0}\" already exists."
-msgstr "抱歉，已經存在名為\"{0}\"的草稿碼（或目錄）"
+msgstr "抱歉，已經存在名為\"{0}\"的藍圖（或目錄）"
 
 #: Sketch.java:479
 msgid "Could not rename the sketch. (0)"
-msgstr "無法重新命名草稿碼。(0)"
+msgstr "無法重新命名藍圖。(0)"
 
 #: Sketch.java:487 Sketch.java:532
 #, java-format
@@ -1210,11 +1210,11 @@ msgstr "無法將\"{0}\"重新命名為\"{1}\""
 
 #: Sketch.java:500
 msgid "Could not rename the sketch. (1)"
-msgstr "無法重新命名草稿碼。(1)"
+msgstr "無法重新命名藍圖。(1)"
 
 #: Sketch.java:507
 msgid "Could not rename the sketch. (2)"
-msgstr "無法重新命名草稿碼。(2)"
+msgstr "無法重新命名藍圖。(2)"
 
 #: Sketch.java:544
 msgid "createNewFile() returned false"
@@ -1222,7 +1222,7 @@ msgstr "createNewFile()回傳false"
 
 #: Sketch.java:591
 msgid "Are you sure you want to delete this sketch?"
-msgstr "確定要刪除這個草稿碼？"
+msgstr "確定要刪除這個藍圖？"
 
 #: Sketch.java:592
 #, java-format
@@ -1244,14 +1244,14 @@ msgstr "removeCode：內部錯誤..找不到程式碼"
 
 #: Sketch.java:724
 msgid "Sketch is read-only"
-msgstr "草稿碼為唯讀狀態"
+msgstr "藍圖為唯讀狀態"
 
 #: Sketch.java:725
 msgid ""
 "Some files are marked \"read-only\", so you'll\n"
 "need to re-save this sketch to another location."
 msgstr ""
-"有些檔案為\"唯讀\"，你必須將草稿碼"
+"有些檔案為\"唯讀\"，你必須將藍圖"
 "重新儲存到別的位置。"
 
 #: Sketch.java:743
@@ -1265,12 +1265,12 @@ msgid ""
 "Save sketch and update its extension?"
 msgstr ""
 "在Arduino 1.0裡，預設附檔名已經從\n"
-".pde改為.ino，新的草稿碼（包括以「另存新檔」建立的），\n"
-"都會使用新的附檔名。已經存在的草稿碼的附檔名，\n"
+".pde改為.ino，新的藍圖（包括以「另存新檔」建立的），\n"
+"都會使用新的附檔名。已經存在的藍圖的附檔名，\n"
 "將會在儲存時被更新，但你可以在偏好設定裡\n"
 "關閉這個動作。\n"
 "\n"
-"儲存草稿碼並更新附檔名？"
+"儲存藍圖並更新附檔名？"
 
 #: Sketch.java:750
 msgid ".pde -> .ino"
@@ -1278,14 +1278,14 @@ msgstr ".pde -> .ino"
 
 #: Sketch.java:829
 msgid "Save sketch folder as..."
-msgstr "將草稿碼目錄儲存為..."
+msgstr "將藍圖目錄儲存為..."
 
 #: Sketch.java:865
 msgid ""
 "You can't save the sketch as \"{0}\"\n"
 "because the sketch already has a .cpp file with that name."
 msgstr ""
-"你不能將草稿碼儲存為\"{0}\"\n"
+"你不能將藍圖儲存為\"{0}\"\n"
 "，因為已經有個擁有相同名稱的.cpp檔案了。"
 
 #: Sketch.java:886
@@ -1297,12 +1297,12 @@ msgid ""
 "You cannot save the sketch into a folder\n"
 "inside itself. This would go on forever."
 msgstr ""
-"你不能將草稿碼儲存在它自己的目錄裡，\n"
+"你不能將藍圖儲存在它自己的目錄裡，\n"
 "這會沒完沒了。"
 
 #: Sketch.java:979
 msgid "Select an image or other data file to copy to your sketch"
-msgstr "選擇影像檔或其他資料檔案，複製到你的草稿碼裡"
+msgstr "選擇影像檔或其他資料檔案，複製到你的藍圖裡"
 
 #: Sketch.java:1047
 #, java-format
@@ -1335,7 +1335,7 @@ msgstr ""
 #: Sketch.java:1093
 #, java-format
 msgid "Could not add ''{0}'' to the sketch."
-msgstr "無法將''{0}''加入到草稿碼裡"
+msgstr "無法將''{0}''加入到藍圖裡"
 
 #: Sketch.java:1393 Sketch.java:1424
 msgid "Build folder disappeared or could not be written"
@@ -1362,7 +1362,7 @@ msgstr "上傳中..."
 #: Sketch.java:1684
 #, java-format
 msgid "Binary sketch size: {0} bytes (of a {1} byte maximum)"
-msgstr "草稿碼二進位的大小：{0} bytes（上限為{1} bytes）"
+msgstr "藍圖二進位的大小：{0} bytes（上限為{1} bytes）"
 
 #: Sketch.java:1689
 msgid "Couldn't determine program size: {0}"
@@ -1373,7 +1373,7 @@ msgid ""
 "Sketch too big; see http://www.arduino.cc/en/Guide/Troubleshooting#size for "
 "tips on reducing it."
 msgstr ""
-"草稿碼太大了；縮減技巧"
+"藍圖太大了；縮減技巧"
 "請見http://www.arduino.cc/en/Guide/Troubleshooting#size"
 
 #: Sketch.java:1754
@@ -1382,7 +1382,7 @@ msgstr "有個/*註解*/，但沒有*/作為結尾"
 
 #: Sketch.java:1796
 msgid "Sketch Disappeared"
-msgstr "草稿碼消失了"
+msgstr "藍圖消失了"
 
 #: Sketch.java:1797
 msgid ""
@@ -1390,20 +1390,20 @@ msgid ""
 " Will attempt to re-save in the same location,\n"
 "but anything besides the code will be lost."
 msgstr ""
-"草稿碼目錄消失了。\n"
+"藍圖目錄消失了。\n"
 "將試著在同樣的位置重新儲存，\n"
 "但是，程式碼以外的東西將會遺失。"
 
 #: Sketch.java:1810
 msgid "Could not re-save sketch"
-msgstr "無法重新儲存草稿碼"
+msgstr "無法重新儲存藍圖"
 
 #: Sketch.java:1811
 msgid ""
 "Could not properly re-save the sketch. You may be in trouble at this point,\n"
 "and it might be time to copy and paste your code to another text editor."
 msgstr ""
-"無法適當地重新儲存草稿碼，此時應該會出問題，\n"
+"無法適當地重新儲存藍圖，此時應該會出問題，\n"
 "請將你的程式複製貼上到別的文字編輯器裡。"
 
 #: Sketch.java:2060
@@ -1412,7 +1412,7 @@ msgid ""
 "of ASCII characters and numbers (but cannot start with a number).\n"
 "They should also be less less than 64 characters long."
 msgstr ""
-"草稿碼名稱被變更了。草稿碼名稱只能含有ASCII字元與數字\n"
+"藍圖名稱被變更了。藍圖名稱只能含有ASCII字元與數字\n"
 "（但不能以數字開頭）。\n"
 "名稱必須少於64個字元。"
 
@@ -1430,7 +1430,7 @@ msgid ""
 "todelete the bad characters to get rid of this warning."
 msgstr ""
 "\"{0}\"含有無法辨識的字元。若這份程式是以舊版Processing"
-"建立的話，你需要以「工具 -> 修正編碼並重新載入」將草稿碼"
+"建立的話，你需要以「工具 -> 修正編碼並重新載入」將藍圖"
 "更新為UTF-8編碼格式，若不想這麼做的話，"
 "請刪除不正確的字元，以免除此警告訊息。"
 
@@ -1444,7 +1444,7 @@ msgstr ""
 
 #: tools/Archiver.java:48
 msgid "Archive Sketch"
-msgstr "封存草稿碼"
+msgstr "封存藍圖"
 
 #: tools/Archiver.java:59
 msgid "yyMMdd"
@@ -1452,23 +1452,23 @@ msgstr "yyMMdd"
 
 #: tools/Archiver.java:74
 msgid "Couldn't archive sketch"
-msgstr "無法封存草稿碼"
+msgstr "無法封存藍圖"
 
 #: tools/Archiver.java:75
 msgid ""
 "Archiving the sketch has been canceled because\n"
 "the sketch couldn't save properly."
 msgstr ""
-"草稿碼封存動作被取消了\n"
-"，因為無法適當地儲存草稿碼。"
+"藍圖封存動作被取消了\n"
+"，因為無法適當地儲存藍圖。"
 
 #: tools/Archiver.java:109
 msgid "Archive sketch as:"
-msgstr "將草稿碼封存為："
+msgstr "將藍圖封存為："
 
 #: tools/Archiver.java:139
 msgid "Archive sketch canceled."
-msgstr "草稿碼封存動作被取消了"
+msgstr "藍圖封存動作被取消了"
 
 #: tools/AutoFormat.java:91
 msgid "Auto Format"
@@ -1505,7 +1505,7 @@ msgstr "修正編碼並重新載入"
 
 #: tools/FixEncoding.java:57
 msgid "Discard all changes and reload sketch?"
-msgstr "放棄所有變更並重新載入草稿碼？"
+msgstr "放棄所有變更並重新載入藍圖？"
 
 #: tools/FixEncoding.java:77
 msgid ""
@@ -1514,8 +1514,8 @@ msgid ""
 "the old version. Use Open to re-open the sketch and try again.\n"
 msgstr ""
 "試著修正檔案編碼時發生錯誤。\n"
-"請不要試著儲存這份草稿碼，可能會覆蓋舊版本。\n"
-"請用「開啟」重新開啟草稿碼再試一次。\n"
+"請不要試著儲存這份藍圖，可能會覆蓋舊版本。\n"
+"請用「開啟」重新開啟藍圖再試一次。\n"
 
 #: UpdateCheck.java:53
 msgid "http://www.arduino.cc/latest.txt"
